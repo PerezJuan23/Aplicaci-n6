@@ -3,7 +3,7 @@
 $(document).ready(function (e){
  document .addEventListener ("deviceready",function(){
  $('#btnvibrar').on('tap',function(){
-	 navigator.notification.vibrate(10000);
+	 navigator.notification.vibrate(80000);
  });
  });
 });
